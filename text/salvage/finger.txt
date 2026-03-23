@@ -1,0 +1,29 @@
+=title SALVAGE MANUAL  /   Robot Digit
+=health 4
+=image salvage/finger
+Synthetic finger.
+Part of a larger figure.
+
+=begin
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+First detach the knuckle joint.
+3g alloy may be reclaimed.
+=await ALLOY 3
+=end
+
+=begin
+The flexor may now be detatched.
+1g polymer may be reclaimed.
+=await POLYMER 1
+=next
+=end
+
+=begin
+Finally, the segments of the finger are low-grade steel.
+4g alloy may be reclaimed from each.
+=await ALLOY 4
+=next
+=await ALLOY 4
+=next
+=end

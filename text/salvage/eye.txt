@@ -1,0 +1,20 @@
+=title SALVAGE MANUAL  /   Glass Eye
+=health 3
+=image salvage/eye
+Synthetic eye, for seeing.
+Often used as simple prosthesis.
+
+=begin
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+The exterior shell is a lightwight aluminium alloy.
+3g alloy may be reclaimed.
+=await ALLOY 3
+=end
+
+=begin
+Three days visual data is stored on tape within the eye.
+2m data may be reclaimed.
+=await DATA 2
+=next
+=end

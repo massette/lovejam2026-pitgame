@@ -1,0 +1,71 @@
+__jam ideas
+   OH IVE REMEBERED
+2  inventory management game
+   i love making lists of items that you need in games its the best part
+
+__the actual idea
+basic gameplay flow:
+thing shows up
+you break it down and categorize the parts
+up the counters
+
+unfortunately,,
+the initial idea was like breaking down like an animal
+but i don't really want to draw that
+or write that
+or deal with that
+
+drawing machines could be fun
+im not very good at it, but it could be fun
+
+game ends when the pit is full
+
+oh androids
+
+__progression
+Raw (4)
+- Alloy
+- Polymer
+- Record
+- Fuel
+
+Junk (4)
+- Lighter
+- Pocket Watch
+- Gramophone
+- Micro-Generator
+
+Animals (5)
+- Model 2I  "Monarch" [Insecta Lepidoptera]
+- Model 3H  "Bullfrog"  [Amphibia Anura]
+- Model 3A  "Songbird"  [Aves Passeriformes]
+- Model 23P "Goldfish"  [Actinopterygii Cypriniformes]
+- Model 17A "Kestrel"   [Aves Falconiformes]
+
+Android Parts (5) Model 243M "Sapiens"
+- Finger
+- Eye
+- Hand/Foot
+- Head [0-2 Eyes]
+- Arm/Longarm/Leg
+- Torso [Damaged/Intact]
+- Incomplete Android
+
+__syntax
+= IMAGE salvage/robot-head-00
+= SECTION [0-WIDTH SECTION, Start next section here]
+Four screws hold thing together.
+= SECTION 4, 0, 0, 0, 0
+Flavor, flavor, flavor
+
+= IMAGE salvage/robot-head-01
+= SECTION
+The right cheek-plate may now be removed to access the internals.
+= SECTION 0, 1, 0, 0, 0
+
+First, disconnect the eyes for later salvage.
+= SECTION 0, 0, 0, 0, 2
+
+
+32 x 32 buttons
+250 x 210 display

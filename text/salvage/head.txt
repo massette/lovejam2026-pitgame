@@ -1,0 +1,43 @@
+=title SALVAGE MANUAL  /  Robot Head
+=health 3
+=image salvage/head
+First generation android part.
+A relic. Predates the epoch.
+
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+The face is comprised of three plates:
+- Two (2) "cheek-plates" forming the jaw, cheeks, and temples.
+- One (1) "top-plate" forming the nose and brow.
+
+=begin
+They are held together by two screws in the jaw and one through the crown of the head.
+1g alloy may be reclaimed from each screw.
+=await ALLOY 3
+
+Once removed, detach top-plate and single cheek-plate to access internals.
+3g alloy may be reclaimed from each plate.
+=await ALLOY 3
+=next
+=await ALLOY 3
+=next
+=end
+
+This model predates the use of speech synthesis as primary communication mode. Instead, early models were granted only a few pre-defined eye motions to express emotion.
+
+=begin
+If the eyes remain intact, they may be removed and disasembled.
+See section "Glass Eye"
+=await ALLOY 3
+=await DATA 2
+=next
+=await ALLOY 3
+=await DATA 2
+=next 
+=end
+
+=begin
+Collect remaining plates.
+=await ALLOY 3
+=next
+=end

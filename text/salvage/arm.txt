@@ -1,0 +1,59 @@
+=title SALVAGE MANUAL  /   Robot Longarm
+=health 5
+=image salvage/arm
+A robot arm with far too many joints.
+A distinct characteristic of the second age of robotics.
+
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+Due to the size of the arm, this can be a tedious breakdown.
+
+=begin
+Starting from the shoulder, remove the first elbow joint.
+4 alloy may be reclaimed.
+=await ALLOY 4
+=next
+
+Remove the extensor.
+1 polymer may be reclaimed.
+=await POLYMER 1
+
+Remove the upper segment of the arm, which is now disconnected.
+8 alloy may be reclaimed.
+=await ALLOY 8
+=next
+
+Repeat for all remaining joints.
+=await ALLOY 4
+=next
+=await POLYMER 1
+=await ALLOY 8
+=next
+=await ALLOY 4
+=next
+=await POLYMER 1
+=await ALLOY 8
+=next
+=await ALLOY 4
+=next
+=await POLYMER 1
+=await ALLOY 8
+=next
+=end
+
+=begin
+Finally, the hand may be removed and disassembled.
+See section "Robot Hand".
+=await ALLOY 6
+=await POLYMER 1
+=await ALLOY 14
+=await POLYMER 1
+=await ALLOY 14
+=await POLYMER 1
+=await ALLOY 14
+=await POLYMER 1
+=await ALLOY 14
+=await POLYMER 1
+=await ALLOY 14
+=next
+=end

@@ -1,0 +1,34 @@
+=title SALVAGE MANUAL  /   Robot Bird
+=health 3
+=image salvage/bird
+It's a fish!!
+Synthetic member of order Passeriformes.
+
+=begin
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+Detach stomach plate to reveal internals.
+3g alloy may be reclaimed.
+=await ALLOY 3
+=next
+=end
+
+=begin
+Early automatons ran on a mixture of coal and kindling.
+12g fuel may be reclaimed.
+=await FUEL 12
+=next
+=end
+
+=begin
+Remove the wings.
+3g alloy may be reclaimed from each.
+=await ALLOY 6
+=next
+=end
+
+=begin
+Collect remaining plates.
+=await ALLOY 6
+=next
+=end

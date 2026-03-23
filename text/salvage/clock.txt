@@ -1,0 +1,35 @@
+=title SALVAGE MANUAL  /   Watch
+=health 5
+=image salvage/clock
+Old pocket watch.
+Used to keep time.
+
+=begin
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+Detach rear plate of clock.
+3g alloy may be reclaimed.
+=await ALLOY 3
+=next
+=end
+
+=begin
+Remove gears from clock.
+2g alloy may be reclaimed from each.
+=await ALLOY 6
+=next
+=end
+
+=begin
+Remove hands of the clock.
+1g alloy may be reclaimed from each.
+=await ALLOY 2
+=next
+=end
+
+=begin
+The frame of the clock is mostly bronze.
+3g alloy may be reclaimed.
+=await ALLOY 3
+=next
+=end

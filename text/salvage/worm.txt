@@ -1,0 +1,13 @@
+=title SALVAGE MANUAL  /   Worm
+=health 1
+=image salvage/worm
+Worm on a string!!
+
+=begin
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+The entire thing is rubber.
+7g polymer may be reclaimed
+=await POLYMER 7
+=next
+=end

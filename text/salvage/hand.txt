@@ -1,0 +1,46 @@
+=title SALVAGE MANUAL  /   Robot Hand
+=health 4
+=image salvage/hand
+A complete hand from an old automaton.
+Now with opposable thumbs!
+
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+The hand is comprised of 5 knuckles, 5 fingers, and the palm.
+
+=begin
+First remove the knuckle.
+3g alloy may be reclaimed.
+=await ALLOY 6
+=await POLYMER 1
+=await ALLOY 8
+=next
+=await ALLOY 6
+=await POLYMER 1
+=await ALLOY 8
+=next
+=await ALLOY 6
+=await POLYMER 1
+=await ALLOY 8
+=next
+=await ALLOY 6
+=await POLYMER 1
+=await ALLOY 8
+=next
+=await ALLOY 6
+=await POLYMER 1
+=await ALLOY 8
+=next
+
+The digit may now be disassembled.
+See section "Robot Digit".
+
+Repeat for remaining digits.
+=end
+
+=begin
+Finally, disassemble the palm.
+6g alloy may be reclaimed.
+=await ALLOY 6
+= next
+=end

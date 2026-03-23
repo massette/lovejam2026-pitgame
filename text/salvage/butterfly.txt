@@ -1,0 +1,26 @@
+=title SALVAGE MANUAL  /   Scrap Butterfly
+=health 4
+=image salvage/butterfly
+Toy butterfly made from old metal.
+The wings are opened by twisting the head-screw.
+
+=begin
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+The body is held together by the head-screw.
+
+It is held in place by:
+- Two (2) washers, 1g alloy each
+- Two (2) gears, 2g alloy each
+=await ALLOY 6
+=next
+=end
+
+=begin
+The wings are fashioned from lopsided plate steel.
+3g alloy may be recovered from each.
+=await ALLOY 3
+=next
+=await ALLOY 3
+=next
+=end

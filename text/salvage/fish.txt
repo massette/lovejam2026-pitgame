@@ -1,0 +1,41 @@
+=title SALVAGE MANUAL  /   Robot Fish
+=health 3
+=image salvage/fish
+Proof of concept automaton.
+Synthetic member of order Cypriniformes.
+
+=begin
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+Detach the head.
+3g alloy may be reclaimed.
+=await ALLOY 3
+=next
+=end
+
+=begin
+Remove the front plate to access the internals.
+5g alloy may be reclaimed.
+=await ALLOY 5
+=next
+=end
+
+=begin
+A series of 3 internal gears were used to control the pump mechanism responsible for buoyancy.
+4g alloy may be reclaimed from each.
+=await ALLOY 12
+=next
+=end
+
+=begin
+Early automatons ran on a mixture of coal and kindling.
+12g fule may be reclaimed.
+=await FUEL 12
+=next
+=end
+
+=begin
+Collect remaining plates.
+=await ALLOY 5
+=next
+=end

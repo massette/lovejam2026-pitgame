@@ -1,0 +1,34 @@
+=title SALVAGE MANUAL  /   Data Player
+=health 5
+=image salvage/player
+Old electronic device. Used to repeat audio signals.
+
+=font bold
+[MATERIALS]
+Copper (1g): 2u ALLOY
+Aluminium (3g): 1u ALLOY
+Plastic (1g): 2u POLYMER
+Data Wheel: 3u record
+
+=begin
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+=begin
+The built-in earpiece is made of plastic.
+Approx. 2g plastic may be reclaimed from the earpiece,
+  1g copper from the wiring.
+=await 2 alloy 4 polymer
+=next
+=end
+
+The exterior of the player is a lightweight metal.
+Approx. 3g aluminium may be reclaimed.
+=await 1 alloy
+=next
+=end
+
+=begin
+Finally, the data wheel may be reclaimed.
+=await 3 record
+=next
+=end

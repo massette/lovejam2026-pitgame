@@ -1,0 +1,28 @@
+=title SALVAGE MANUAL  /   Lighter
+=health 5
+=image salvage/lighter
+Old pocket lighter
+Used to start small fires.
+
+=begin
+=font bold
+[BREAKDOWN INSTRUCTIONS]
+The exterior is a simple plastic shell.
+2g polymer may be reclaimed.
+=await POLYMER 2
+=next
+=end
+
+=begin
+Standard lighter contains butane.
+4g gaseous fuel may be reclaimed.
+=await FUEL 4
+=next
+=end
+
+=begin
+The head of the lighter is steel.
+3g alloy may be reclaimed.
+=await ALLOY 3
+=next
+=end
