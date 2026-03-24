@@ -139,7 +139,7 @@ function images:load_image(path)
     return images[path]
 end
 
-images["fail"] = g.newTextBatch(
+images["fail"] = g.newText(
     s.fonts["default"],
     {
         images.colors.nth[
@@ -149,7 +149,7 @@ images["fail"] = g.newTextBatch(
     }
 )
 
-images["done"] = g.newTextBatch(
+images["done"] = g.newText(
     s.fonts["default"],
     {
         images.colors.nth[
@@ -159,7 +159,7 @@ images["done"] = g.newTextBatch(
     }
 )
 
-images["ui/marker"] = g.newTextBatch(
+images["ui/marker"] = g.newText(
     s.fonts["default"],
     {
         images.colors.nth[

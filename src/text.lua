@@ -5,7 +5,7 @@ local images = require("src.images")
 
 --[[ MODULE ]]--
 local text = {
-    title = g.newTextBatch(s.fonts["head"], "Intro.txt"),
+    title = g.newText(s.fonts["head"], "Intro.txt"),
     blocks = {},
     max_height = 0,
 
@@ -36,7 +36,7 @@ function text:clear()
 end
 
 function text:setTitle(title)
-    self.title = g.newTextBatch(s.fonts["head"], title)
+    self.title = g.newText(s.fonts["head"], title)
 end
 
 function text:addText(text, font, color)
@@ -57,7 +57,7 @@ function text:addText(text, font, color)
     -- start new block on font change
     if (#self.blocks == 0)
     or (font ~= self.blocks[#self.blocks]:getFont()) then
-        self.blocks[#self.blocks + 1] = g.newTextBatch(font)
+        self.blocks[#self.blocks + 1] = g.newText(font)
     end
 
     -- append text to last block
