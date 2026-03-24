@@ -1,6 +1,7 @@
 function love.conf(t)
     t.title = "At The Bottom of The Bottomless Pit"
     t.identity = "massette/pitgame"
+    t.version = "12.0"
 
     t.window.minwidth  = 320
     t.window.minheight = 180
