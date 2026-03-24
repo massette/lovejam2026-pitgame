@@ -1,3 +1,9 @@
+__post jam
+- allow for changing the image mid-script
+  - "sub" models
+  - where you advance through another model and then return to the same part of this one
+
+
 __jam ideas
    OH IVE REMEBERED
 2  inventory management game
