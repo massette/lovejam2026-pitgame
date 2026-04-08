@@ -132,12 +132,12 @@ end
 
 local groups = {
     { 
-        "text/salvage/worm.txt",
-        "text/salvage/lighter.txt",
-        "text/salvage/eye.txt",
-        "text/salvage/clock.txt",
-        "text/salvage/butterfly.txt",
-        "text/salvage/finger.txt",
+        "scripts/salvage/worm.txt",
+        "scripts/salvage/lighter.txt",
+        "scripts/salvage/eye.txt",
+        "scripts/salvage/clock.txt",
+        "scripts/salvage/butterfly.txt",
+        "scripts/salvage/finger.txt",
 
         seen_n = 0,
         seen = {},
@@ -146,9 +146,9 @@ local groups = {
         max = 4,
     },
     {
-        "text/salvage/bird.txt",
-        "text/salvage/head.txt",
-        "text/salvage/hand.txt",
+        "scripts/salvage/bird.txt",
+        "scripts/salvage/head.txt",
+        "scripts/salvage/hand.txt",
 
         seen_n = 0,
         seen = {},
@@ -157,8 +157,8 @@ local groups = {
         max = 2,
     },
     {
-        "text/salvage/fish.txt",
-        "text/salvage/arm.txt",
+        "scripts/salvage/fish.txt",
+        "scripts/salvage/arm.txt",
 
         seen_n = 0,
         seen = {},
@@ -223,7 +223,7 @@ text.next = counts.index[1]
 text.next.prev = text
 
 counts.counts["CONFIRM"].on_click = pick_next
-load_file("text/intro.txt")
+load_file("scripts/intro.txt")
 
 local is_done = false
 local done_timer = 3
@@ -245,6 +245,7 @@ function love.resize(width, height)
     end
 
     ox = math.floor((width  - s.width  * scale) / 2)
+
     oy = math.floor((height - s.height * scale) / 2)
 end
 
